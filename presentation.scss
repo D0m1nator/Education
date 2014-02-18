@@ -1,9 +1,26 @@
-
+html, body{
+  box-sizing: border-box;
+}
 .input {
   width: 500px;
   height: 45px;
   background-color: black;
   color: olivedrab;
+  margin: 0;
+  padding: 0;
+  input{
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    color: greenyellow;
+    border-bottom: 2px dashed gray;
+    &:before{
+      border-right: red 5px solid;
+    }
+    &:after{
+      border-right: red 5px solid;
+    }
+  }
 }
 
 .output {
@@ -12,5 +29,10 @@
   background-color: black;
   color: greenyellow;
   font-weight: bold;
+}
+
+.console {
+  width: 500px;
+  margin: 25px auto;
 }
 

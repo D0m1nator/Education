@@ -1,20 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="presentation.scss"/>
+    <script src="io-interpreter.js"></script>
+    <link rel="stylesheet" type="text/css" href="presentation.css"/>
     <meta charset="UTF-8">
     <title>Fundamentals Training</title>
 </head>
 <body>
+<div class="console">
     <div class="input">
-        <form action="engine.js">
+        <form>
             <label for="console-input">input commmands
-                <input type="text" name="console-input" id="console-input"/>
+                <input type="text" name="console-input" id="console-input" value="DEF_V"/>
             </label>
         </form>
     </div>
     <div class="output">
         <!--output area-->
     </div>
+</div>
+<script src="loader.js"></script>
 </body>
 </html>
