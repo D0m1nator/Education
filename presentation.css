@@ -1,0 +1,12 @@
+.input {
+  width: 500px;
+  height: 45px;
+  background-color: black;
+  color: olivedrab; }
+
+.output {
+  width: 500px;
+  height: 250px;
+  background-color: black;
+  color: greenyellow;
+  font-weight: bold; }
